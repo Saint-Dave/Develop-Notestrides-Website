@@ -3,16 +3,20 @@
     --secondaryColor: hsl(295, 35%, 81%);
     --neutralColor: hsl(0,0%,100%);
 
-  --color-neutral-100: hsl(0, 0%, 100%);
+    --primaryFontFamily: 'Open Sans', sans-serif;
 
-  --font-family-primary: 'Open Sans', sans-serif;
+    --backgroundImage : hsl(60, 100%, 50%) url("./img/1.jpg") no-repeat bottom right/cover;
+    /* --backgroundImage : hsl(60, 100%, 50%) url("./img/1.jpg") no-repeat bottom right fixed; */
 
-  --font-family-body: var(--font-family-primary);
-  --font-family-heading: var(--font-family-primary);
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
 
-  --font-weight-regular: 400;
-  --font-weight-semi-bold: 500;
-  --font-weight-bold: 700;
+    --font-style-italic: italic;
+    --font-style-normal: normal;
+    --font-style-oblique: oblique;
 
   --fs-300: 0.8125rem;
   --fs-400: 0.875rem;
@@ -27,4 +31,16 @@
   --fs-secondary-heading: var(--fs-700);
   --fs-nav: var(--fs-500);
   --fs-button: var(--fs-300);
+}
+body{
+    background: red;
+    background: var(--backgroundImage);
+}
+p{
+    color: aqua;
+    /* background: var(--backgroundImage); */
+}
+
+li{
+    color: brown;
 }
