@@ -5,8 +5,8 @@
 
     --primaryFontFamily: 'Open Sans', sans-serif;
 
-    --backgroundImage : hsl(60, 100%, 50%) url("./img/1.jpg") no-repeat bottom right/cover;
-    /* --backgroundImage : hsl(60, 100%, 50%) url("./img/1.jpg") no-repeat bottom right fixed; */
+    /* --backgroundImage : hsl(60, 100%, 50%) url("./img/1.jpg") no-repeat bottom right/cover;
+    --backgroundImage : hsl(60, 100%, 50%) url("./img/1.jpg") no-repeat bottom right fixed; */
 
     --font-weight-light: 300;
     --font-weight-regular: 400;
